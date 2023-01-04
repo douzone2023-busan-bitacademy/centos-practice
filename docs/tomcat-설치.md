@@ -63,9 +63,9 @@
 
 12. tomcat 재시작
 ```sh
-    # systemctl stop tomcat
-    # ps -ef | grep tomcat
-    # systemctl start tomcat
+# systemctl stop tomcat
+# ps -ef | grep tomcat
+# systemctl start tomcat
 ```
 
 13. http://설치서버/manager 접근/인증 하기
