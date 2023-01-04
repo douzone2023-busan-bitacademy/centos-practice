@@ -37,7 +37,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 7. 확인
 ```sh
 # source /etc/profile
-# java -version
+# java --version
 java 17.0.5 2022-10-18 LTS
 Java(TM) SE Runtime Environment (build 17.0.5+9-LTS-191)
 Java HotSpot(TM) 64-Bit Server VM (build 17.0.5+9-LTS-191, mixed mode, sharing)
