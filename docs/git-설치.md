@@ -20,10 +20,12 @@
 # tar xvfz git-2.9.5.tar.gz
 ```
 
-4.소스 디렉토리
+4. 소스 디렉토리 이동
 ```sh   
 # cd git-2.9.5
 # pwd
+/root/git-2.9.5
+#
 ```
 
 5. configure
@@ -33,12 +35,12 @@
 
 6. 빌드
 ```sh
-  # make all
+# make all
 ```
 
 7. 설치
 ```sh
-  # make install
+# make install
 ```
 
 8. 설정(/etc/profile)
@@ -51,11 +53,14 @@ export PATH=$PATH:/usr/local/douzone2023/git/bin
 ```sh
 # source /etc/profile
 # git --version
-# git version 2.9.5
+git version 2.9.5
+#
 ```
-만약, 버전이 2.9.5  보다 낮은 경우
+
+만약, 버전이 2.9.5 보다 낮은 경우
 ```sh
 # whereis git
+git: /usr/bin/git /usr/local/douzone2023/git/bin/git /usr/share/man/man1/git.1.gz
 # cd /usr/bin
 # rm -f git
 # ln -s /usr/local/douzone2023/git/bin/git git
