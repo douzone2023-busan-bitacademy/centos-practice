@@ -1,18 +1,23 @@
 ## git 2.9.5 설치
 
 1. 의존성 라이브러리
-   # yum install curl-devel
-   # yum install expat-devel
-   # yum install gettext-devel
-   # yum install openssl-devel
-   # yum install zlib-devel
-   # yum install perl-devel
+```sh   
+# yum install curl-devel
+# yum install expat-devel
+# yum install gettext-devel
+# yum install openssl-devel
+# yum install zlib-devel
+# yum install perl-devel
+```
 
 2. 다운로드
+```sh   
    # wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.gz
+```
 
 3. 압축 풀기
-  # tar xvfz git-2.9.5.tar.gz
+
+# tar xvfz git-2.9.5.tar.gz
 
 4.소스 디렉토리
   # cd git-2.9.5
