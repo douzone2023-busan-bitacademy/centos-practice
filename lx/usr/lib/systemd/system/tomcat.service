@@ -1,0 +1,20 @@
+[Unit]
+Description=tomcat9
+After=network.target syslog.target
+
+[Service]
+Type=forking
+
+Environment=JAVA_HOME=/usr/local/douzone2023/java
+User=root
+Group=root
+
+ExecStart=/usr/local/douzone2023/tomcat/bin/startup.sh
+ExecStop=/usr/local/douzone2023/tomcat/bin/shutdown.sh
+
+UMask=0007
+RestartSec=10
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
