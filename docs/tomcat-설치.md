@@ -58,8 +58,8 @@
 ```
 
 11. tomcat manager 설정
-   - [/usr/local/douzone2021/tomcat/conf/tomcat-users.xml](https://github.com/douzone2023-busan-bitacademy/centos-practice/blob/main/lx/usr/local/douzone2023/tomcat-9.0.70/conf/tomcat-users.xml) 설정
-   - [/usr/local/douzone2021/tomcat/webapps/manager/META-INF/context.xml](https://github.com/douzone2023-busan-bitacademy/centos-practice/blob/main/lx/usr/local/douzone2023/tomcat-9.0.70/webapps/manager/META-INF/context.xml) 설정
+   - [/usr/local/douzone2023/tomcat/conf/tomcat-users.xml](https://github.com/douzone2023-busan-bitacademy/centos-practice/blob/main/lx/usr/local/douzone2023/tomcat-9.0.70/conf/tomcat-users.xml) 설정
+   - [/usr/local/douzone2023/tomcat/webapps/manager/META-INF/context.xml](https://github.com/douzone2023-busan-bitacademy/centos-practice/blob/main/lx/usr/local/douzone2023/tomcat-9.0.70/webapps/manager/META-INF/context.xml) 설정
 
 12. tomcat 재시작
 ```sh
