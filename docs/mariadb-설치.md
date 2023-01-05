@@ -27,7 +27,7 @@ iconv 소스 컴파일 설치를 한다.
 # wget --no-check-certificate https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.17.tar.gz
 # tar xvfz libiconv-1.17.tar.gz
 # cd libiconv-1.17
-# .configure --prefix=/usr/local
+# ./configure --prefix=/usr/local
 # make
 # make install
 ```
